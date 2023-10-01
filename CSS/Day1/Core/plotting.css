@@ -1,9 +1,9 @@
 .container{
     width: 950px;
-    height: 600px;
+    height: 530px;
     background-color: silver;
     margin: 0px auto;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .top-nav {
@@ -31,7 +31,7 @@
     box-sizing: border-box;
 
     height: 350px;
-    width: 600px;
+    width: 700px;
     background-color: red;
 
 }
@@ -39,9 +39,8 @@
 
 .side-nav {
     margin: 15px;
-
     height: 300px;
-    width: 150px;
+    width: 180px;
     background-color: blue;
 }
 .sub-content {
@@ -50,14 +49,14 @@
     box-sizing: border-box;
 
     height: 200px;
-    width: 150px;
+    width: 200px;
     background-color: yellow;
 }
 #advertisement {
     margin: 10px;
 
     height: 90px;
-    width: 520px;
+    width: 670px;
     background-color: purple;
 }
 
