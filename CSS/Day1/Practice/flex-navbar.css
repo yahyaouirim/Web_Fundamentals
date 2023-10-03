@@ -1,0 +1,31 @@
+.nav{
+    background-color: #383533;    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 50px;
+    padding: 15px;
+    margin: 15px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+li {
+    list-style-type: none;
+}
+.btn{
+    background-color: #1E9AB0;
+    width: 90px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px 3px black;
+
+}
