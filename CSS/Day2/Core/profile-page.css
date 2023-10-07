@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+}
+/* navbar css*/
+.nav{
+    background-color: #383533;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20px;
+    padding: 20px 130px 20px 130px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.active{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+li {
+    list-style-type: none;
+}
+.btn{
+    background-color: #1E9AB0;
+    width: 90px;
+    height: 30px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px 3px black;
+    
+   
+    
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+/* ---------------------------------------container--------------------------------- */
+.container{
+    margin: 0 auto;
+    /* background-color: #737778; */
+    width: 800px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+/* ===========================h3============================= */
+
+#dec{
+    color: #A4A4A4;
+}
+.header3{
+    background-color: rgb(51,51,51);
+    height: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.super-icon{
+    width: 30px;
+    margin-right: 10px;
+
+}
+.check-icon1 {
+    width: 20px;
+    margin-left: 80px;
+
+}
+.check-icon{
+    margin-left: 3px;
+    width: 20px;
+}
+.main2{
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 2px solid;
+    border-top: none;
+    border-color: #E5E5E5 ;
+    padding-bottom: 30px;
+  
+    
+}
+.view{
+    border: 2px solid #E5E5E5;
+    margin-left: 0px;
+    padding: 20px 20px 5px 20px;
+}
+.num{
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+/* ========================================column1======================================= */
+.col1{
+    width: 400px;
+    /* border: 3px solid black; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 600px; */
+    padding-left: 20px;
+}
+           /* -------------------------user card----------------------------- */
+          
+        .usercard{
+            width: 100%;
+            font-family: cursive;
+            flex: 2;
+            /* border: 3px solid black; */
+        }
+        .header1{
+            background-color: #1E9AB0;
+            height: 30%;
+            width: 400px;
+            margin-bottom: none;
+            border-top-right-radius: 4px;
+        }
+        .profile{
+            height: 70px ;
+            position: absolute;
+            top: 150px;
+            /* margin-left: 20px;; */
+            padding: 3px;
+            border-radius: 50% ;
+            border: 2px solid #E5E5E5;
+            background-color: white;
+        }
+        .main1{
+            border: 2px solid;
+            border-top: none;
+            border-color: #E5E5E5 ;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-bottom: 50px;
+        }
+        #seattle{
+            font-size: 25px;
+        }
+        .icon{
+            width: 25px;
+            height: 25px;
+        }
+       
+
+           /* -------------------------education----------------------------- */
+           .container1{
+            flex:1;
+            width: 100%;
+            margin-top: 100px;
+           }
+           .header2{
+            background-color: rgb(51,51,51);
+            height: 50px;
+        }
+
+/* =======================================column2======================================== */
+.col2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    width: 300px;
+    padding: 20px;
+
+}
+            /* -------------------------connection request----------------------------- */
+            .container2{
+                flex: 1;
+                /* border: 3px solid black; */
+
+            }
+
+            /* -------------------------your connection----------------------------- */
+            .container3{
+                flex: 2;
+                /* border: 3px solid black; */
+                margin-top: 50px;
+
+
+            }

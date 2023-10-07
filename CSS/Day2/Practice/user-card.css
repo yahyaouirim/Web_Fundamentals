@@ -1,45 +1,38 @@
-
 .container{
     margin: 40px auto;
     width: 600px;
     height: 500px;
-    font-family: sans-serif;
+    font-family: cursive;
 }
-
-
-.blue{
+.header{
     background-color: #1E9AB0;
     height: 100px;
     width: 600px;
     margin-bottom: none;
-    position: relative;;
+    border-top-right-radius: 4px;
 }
 .profile{
     width: 90px ;
     height: 90px;
     position: absolute;
-    top: 50px;
-    padding-left: 20px;
-
+    top: 80px;
+    margin-left: 20px;;
+    padding: 3px;
+    border-radius: 50% ;
+    border: 2px solid #E5E5E5;
+    background-color: white;
 }
 .main{
-    border-bottom: 2px solid;
+    border: 2px solid;
     border-top: none;
-    border-left: 2px solid;
-    border-right: 2px solid;
     border-color: #E5E5E5 ;
     margin-top: none;
     padding: 20px;
-
 }
 #seattle{
     font-size: 25px;
 }
-.map-marker{
-    width: 25px;
-    height: 25px;
-}
-.gear-icon{
+.icon{
     width: 25px;
     height: 25px;
 }
