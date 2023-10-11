@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="button-clicker.css">
+        <title>Djonary</title>
+    </head>
+    <body>
+        <!-- =============header========================= -->
+        <div class="top">
+            <h1 class="dojonary">Dojonary</h1>
+            <input type="text" placeholder="Search" id="search-area">
+            <button class="btn" onclick="login(this)">Login</button>
+        </div>
+        <!-- =================container=================== -->
+        <div class="container">
+            <!-- -------------------left side-------------------- -->
+            <div class="left">
+                <!-- -------------------first block ---------->
+                <div class="block">
+                    <div class="blockleft">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: ninjas</p>
+                        <button class="like" onclick="message(this)">13 likes</button>
+
+                    </div>
+
+                    <div class="blockright">
+                        <p>A practitioner skilled in the</p>
+                        <p><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                    
+
+                <!-- --------------------second block------- -->
+                <div class="block">
+                    <div class="blockleft">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: ninjas</p>
+                        <button class="like" onclick="message(this)">37 likes</button>
+
+                    </div>
+
+                    <div class="blockright">
+                        <p>A <a href="#">programmer</a> who breaks</p>
+                        <p>down problems with <a href="#">zen</a>-like</p>
+                        <p>focus</p>
+                    </div>
+                </div>
+                
+
+            </div>
+            <!-- -------------------right side------------------- -->
+            <div class="right">
+                <h2>Dojonary is defined by <span id="you">You</span></h2>
+                <button class="definition">Add Definition</button>
+
+            </div>
+
+        </div>
+
+
+        <script src="buttonClicker.js"></script>  
+    </body>
+</html>

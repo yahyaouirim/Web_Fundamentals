@@ -1,0 +1,67 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: gray;
+    display: block;
+  }
+  /* ----------------------header----------- */
+  .header{
+    background-color: transparent;
+    height: 70px;
+    /* border-top-right-radius: 5px; */
+    /* border-bottom-left-radius: 5px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    border-bottom: 3px solid grey;
+  }
+  .nav{
+    display: flex;
+  }
+  .nav-links{
+    display: flex;
+    align-items: center;
+  }
+  .nav li{
+    list-style-type: none;
+  }
+li a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    width: 160px;
+    border-radius: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px black;
+    border: 3px solid black;
+    color: blueviolet;
+    height: 40px;
+    box-sizing: border-box;
+
+}
+#show_search_modal {
+    background: transparent url(https://assets.codingdojo.com/learn_platform/global/search_icon.png) no-repeat 121px 6px;
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0,.2);
+    box-sizing: border-box;
+    height: 40px;
+    margin-right: 31px;
+    outline: none;
+    width: 160px;
+    
+}
