@@ -1,0 +1,32 @@
+.main{
+    margin: 40px 80px ;
+    padding: 20px;
+    width: 570px;
+    border: 4px solid black;
+    border-radius: 3px;
+    font-size: medium;
+    font-family: cursive;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like{
+    display: flex;
+}
+h3{
+    margin-right: 50px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    box-shadow: 5px 4px 5px black;
+    background-color:#FFD966;
+    font-size: 24px;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.parg{
+    width: 560px;
+}

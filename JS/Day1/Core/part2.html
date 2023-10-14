@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="part2.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container">
+        <!-- ============header=================== -->
+        <div class="nav">
+            <h1>Network</h1>
+
+        </div>
+        <div class="view">
+
+            <div> <h1 id="feed">Your Feed</h1></div>
+                
+        <!-- ==========================main============== -->
+        <div class="main">
+            
+            <!-- -----------------left side------------------------ -->
+
+            <div class="left">
+                <img src="user-circle.png" alt="avatar">
+                <br>
+                <a href="#">Add an avatar</a>
+                <br>
+                <h2>James Doe</h2>
+            </div>
+
+    <!-- -----------------right side------------------------ -->
+            <div class="right">
+        <!-- ----------------------first block--------------------- -->
+             <div class="block">
+                <div class="user">
+                    <div class="head">
+                        <h2>Neil M</h2>
+                    </div>
+                    <div class="like">
+                        <h3 id="counting1">9 like(s)</h3>
+                        <button class="btn" onclick="countLike(0)">Like</button>
+                    </div>
+
+                </div>
+                <div class="parg">
+                    <h2> This is some filler text, it can say anything <br>we like </h2>
+
+                </div>
+            </div>
+
+            <!-- ----------------------second block--------------------- -->
+        
+            <div class="block">
+                <div class="user">
+                    <div class="head">
+                        <h2>Nichole K</h2>
+                    </div>
+                    <div class="like">
+                        <h3 id="counting2">12 like(s)</h3>
+                        <button class="btn" onclick="countLike(1)">Like</button>
+                    </div>
+    
+                </div>
+                <div class="parg">
+                    <h2> This is some filler text, it can say anything <br>we like </h2>
+    
+                </div>
+            </div>
+    
+            <!-- ----------------------third block--------------------- -->
+            <div class="block">
+                <div class="user">
+                    <div class="head">
+                        <h2>Jim R</h2>
+                    </div>
+                    <div class="like">
+                        <h3 id="counting3">9 like(s)</h3>
+                        <button class="btn" onclick="countLike(2)">Like</button>
+                    </div>
+    
+                </div>
+                <div class="parg">
+                    <h2> This is some filler text, it can say anything <br>we like </h2>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="part2.js"></script>
+</body>
+</html>
